@@ -45,6 +45,7 @@ const updateTask = async (req,res) =>{
     } catch (error) {
         res.status(500).json({msg:error})
     }
+    res.send('update task')
 }
 
 const deleteTask = async (req,res) =>{
